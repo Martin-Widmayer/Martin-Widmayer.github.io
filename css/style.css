@@ -1,0 +1,101 @@
+img{
+    border-radius: 20px;
+
+
+}
+
+h1{
+
+}
+
+
+body{
+        background-color: #F8F9FA;
+    color: #212529;
+    font-family: 'Courier New', Courier, monospace;    
+}
+
+.home{
+
+}.
+
+.pictures{
+    
+}
+
+.music{
+    
+}
+
+.text{
+  
+}
+
+.interactive{
+    
+}
+
+.hidden{
+    color: #F8F9FA;
+}
+
+.links a:link{
+    color: #212529;
+    text-decoration: none;
+}
+
+.links a:visited{
+    color: #212529;
+    text-decoration: none;
+
+}
+
+.links a:hover{
+    color: #212529;
+    text-decoration: underline;
+
+}
+
+.links a:active{
+    color: #212529;
+    text-decoration: none;
+}
+
+
+ {
+    outline: 2px solid red;
+  } --> 
+
+
+
+.orientation {
+    display: flex;
+    justify-content: flex-start
+
+
+    
+
+}
+
+.links {
+
+}
+
+.orientation .links {
+
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center
+
+}
+
+.logo{
+
+}
+
+.contact{
+    margin-left: auto;
+    margin-right: auto;
+
+}
