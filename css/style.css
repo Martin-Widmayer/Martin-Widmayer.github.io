@@ -1,6 +1,4 @@
 img{
-    border-radius: 20px;
-
 
 }
 
@@ -8,11 +6,11 @@ h1{
 
 }
 
-
 body{
-        background-color: #F8F9FA;
+    background-color: white;
     color: #212529;
     font-family: 'Courier New', Courier, monospace;    
+    margin: 0%;
 }
 
 .home{
@@ -35,71 +33,102 @@ body{
     
 }
 
+ {
+    outline: 2px solid red;
+  }
+
+.paracont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height:;
+}
+
+
+.para .impressum{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .hidden{
     color: #F8F9FA;
 }
 
-.links a:link{
+header a:link{
     color: #212529;
     text-decoration: none;
 }
 
-.links a:visited{
+header a:visited{
     color: #212529;
     text-decoration: none;
-
 }
 
-.links a:hover{
+header a:hover{
     color: #212529;
     text-decoration: underline;
-
 }
 
-.links a:active{
+header a:active{
     color: #212529;
     text-decoration: none;
 }
 
-
- {
-    outline: 2px solid red;
-  } --> 
-
-
-
-
-.orientation {
-
-    display: flex;
-    justify-content: flex-start
-}
-
-.links {
-
-}
-
-.orientation .links {
-
-    margin-left: 10px;
-    margin-right: 10px;
-    display: flex;
-    align-items: center
-}
-
-.logo{
-
-}
-
-
-.gallery {
-    margin: 30px;
-    gap: 30px;
+header {
     display: flex;
     justify-content: center;
-    align-items: baseline;
-    flex-wrap: wrap
-    
+    align-items: center;
+    padding: 20px 50px;
+    height:40px;
+}
 
+header li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
 
+header h1{
+    margin-right: auto;
+}
+
+h1{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    margin: 35px;
+}
+
+.para{
+    display:flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: center;
+
+}
+
+#nav-title {
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;
+
+  }
+
+nav{
+    outline-style: dotted;
+    outline-color: #212529;
+}
+
+{
+    outline-style: dotted;
+    outline-color: red;
 }
